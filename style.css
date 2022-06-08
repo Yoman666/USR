@@ -61,29 +61,68 @@ body{
 }
 
 h2{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     padding: 5%;
     text-align: center;
+    color: #f5e5c7;
 }
 
 p{
     text-align: center;
     padding-top: 25%;
     font-weight: bold;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 .wrap{
     max-width: 375px;
-    height: 2000px;
     margin: 0 auto;
     background-image: url("pic/cloud01.png"),url("pic/cloud02.png");
     background-repeat: no-repeat;
     background-size: 375px auto;
-    background-position:left -200px top 48%,right -200px top 60%;
+    background-position:left -200px top 800px,right -200px top 1000px;
     background-color: #4c756f;
 }
 
 .story{
-    
     margin-bottom: 25%;
+}
+
+/* 地圖 */
+.map{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 70%;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 碎片 */
+.pices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.pice01{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 4px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.puzzle{
+    display: flex;
+    justify-content: center;
+}
+
+.rrule_content{
+    padding-top: -20px;
 }
