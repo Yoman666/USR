@@ -69,8 +69,10 @@ h2{
     text-align: center;
     color: #f5e5c7;
 }
-
 p{
+    padding:0% 10%;
+}
+.p01{
     text-align: center;
     padding-top: 15%;
     padding-bottom: 20%;
@@ -84,7 +86,7 @@ p{
     background-image: url("pic/cloud01.png"),url("pic/cloud02.png"),url("pic/cloud01.png"),url("pic/cloud02.png"),url("pic/cloud01.png");
     background-repeat: no-repeat;
     background-size: 375px auto;
-    background-position:-200px 26%,right -200px top 1000px, -200px 39%,right -200px top 1400px, -200px 53%;
+    background-position:-200px 26%,right -200px top 1000px, -200px 40%,right -200px top 1430px, -200px 55%;
     background-color: #4c756f;
 }
 
