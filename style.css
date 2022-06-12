@@ -58,6 +58,8 @@ body{
     font-family: 微軟正黑體;
     color: white;
     line-height: 1.5;
+    letter-spacing: 1.5px;
+    background-color: #e8dcbc;
 }
 
 h2{
@@ -70,18 +72,19 @@ h2{
 
 p{
     text-align: center;
-    padding-top: 25%;
-    font-weight: bold;
+    padding-top: 15%;
+    padding-bottom: 20%;
     padding-right: 5%;
     padding-left: 5%;
+    font-weight: bold;
 }
 .wrap{
     max-width: 375px;
     margin: 0 auto;
-    background-image: url("pic/cloud01.png"),url("pic/cloud02.png");
+    background-image: url("pic/cloud01.png"),url("pic/cloud02.png"),url("pic/cloud01.png"),url("pic/cloud02.png"),url("pic/cloud01.png");
     background-repeat: no-repeat;
     background-size: 375px auto;
-    background-position:left -200px top 800px,right -200px top 1000px;
+    background-position:-200px 26%,right -200px top 1000px, -200px 39%,right -200px top 1400px, -200px 53%;
     background-color: #4c756f;
 }
 
