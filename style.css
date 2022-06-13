@@ -180,6 +180,7 @@ p{
 
 .rule_content{
     padding-top: -20px;
+    margin-bottom: 50px;
 }
 @media(max-width:768px){
     .pli{
@@ -192,7 +193,6 @@ p{
     }
     .mainview{
         display: flex;
-        justify-content: center;
     }
     h2{
         font-size: 150%;
