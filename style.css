@@ -187,7 +187,29 @@ p{
         width: 33%;
     }
 }
-@media(max-width:375px){
+/* @media(max-width:375px){
+    .mainview2{
+        display:none;
+    }
+    .mainview{
+        display: flex;
+    }
+    h2{
+        font-size: 150%;
+    }
+    .pli{
+        width: 33%;
+    }
+    .pice01{
+        height: 100px;
+        margin: 15px;
+    }
+    .box{
+        height: 300px;
+    }
+
+} */
+@media(max-width:360px){
     .mainview2{
         display:none;
     }
