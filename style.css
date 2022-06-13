@@ -209,7 +209,7 @@ p{
     }
 
 } */
-@media(max-width:370px){
+@media(max-width:360px){
     .mainview2{
         display:none;
     }
