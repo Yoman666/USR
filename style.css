@@ -192,6 +192,7 @@ p{
     }
     .mainview{
         display: flex;
+        justify-content: center;
     }
     h2{
         font-size: 150%;
