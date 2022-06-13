@@ -100,10 +100,8 @@ p{
 
 
 }
-
-
 .mainview{
-    width: 375px;
+    display: none;
 }
 .story{
     margin-bottom: 25%; 
@@ -189,6 +187,12 @@ p{
     }
 }
 @media(max-width:375px){
+    .mainview2{
+        display:none;
+    }
+    .mainview{
+        display: flex;
+    }
     h2{
         font-size: 150%;
     }
@@ -202,4 +206,5 @@ p{
     .box{
         height: 300px;
     }
+
 }
