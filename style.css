@@ -164,12 +164,12 @@ p{
     justify-content: space-around;
 }
 .pli{
-    width: 30%;
+    width: 10%;
 }
 .pice01{
-    height: 150px;
+    height: 100px;
     background-color: #fff;
-    margin: 30px;
+    margin: 5px;
     border-radius: 5px;
     box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -183,7 +183,11 @@ p{
 .rule_content{
     padding-top: -20px;
 }
-
+@media(max-width:768px){
+    .pli{
+        width: 33%;
+    }
+}
 @media(max-width:375px){
     h2{
         font-size: 150%;
