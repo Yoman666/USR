@@ -151,6 +151,16 @@ p{
     border-radius: 10px;
     box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
 }
+.location{
+    position: relative;
+    margin-top:22%;
+    right: 15%;
+}
+.mappic{
+    width: 80%;
+    overflow: hidden;
+    border-radius: 25px;
+}
 
 /* 碎片 */
 .puzzlepice{
@@ -177,6 +187,12 @@ p{
     justify-content: center;
     width: 100%;
 }
+.table{
+    position: relative;
+    border-radius: 25px;
+    border: 5px solid black;
+}
+
 
 .rule_content{
     padding-top: -20px;
