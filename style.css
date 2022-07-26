@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -53,6 +54,7 @@ table {
 img{
     max-width: 100%;
     height: auto;
+    
 }
 body{
     font-family: 微軟正黑體;
@@ -139,6 +141,7 @@ p{
 }
 
 /* 地圖 */
+
 .map{
     display: flex;
     justify-content: center;
@@ -151,12 +154,21 @@ p{
     border-radius: 10px;
     box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
 }
-.location{
+.location01{
+    position: relative;
+    margin-top:37%;
+    right: 23%;
+}
+.location02{
     position: relative;
     margin-top:22%;
-    right: 15%;
+    right: 18%;
 }
+
 .mappic{
+    
+    display: block;
+    margin: auto;
     width: 80%;
     overflow: hidden;
     border-radius: 25px;
@@ -185,12 +197,10 @@ p{
 .puzzle{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 80%;
 }
 .table{
-    position: relative;
     border-radius: 25px;
-    border: 5px solid black;
 }
 
 
@@ -246,4 +256,20 @@ p{
     .box{
         height: 300px;
     }
+}
+
+/*順序*/
+input{
+    height: 100px;
+    width: 100px;
+    border:0;
+    background-color:wheat;
+    color:green;border-radius:10px;
+}
+button{
+    border:0;
+    background-color:red;
+    color:black;border-radius:10px;
+    height: 100px;
+    width: 100px;
 }

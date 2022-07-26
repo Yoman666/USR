@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +10,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">吉安土地公</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">關於吉安</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
     <div class="wrap">
         <img src="pic/mainview.jpg" alt="主視覺1" class="mainview" >
         <img src="pic/mainview2.png" alt="主視覺2" class="mainview2" >
@@ -27,10 +53,29 @@
 
         <h2 class="map_title">土地公地圖</h2>
         <div class="map">
-            <img src="pic/map.jpg" alt="map" class="mappic">
-            <a href="https://yoman666.github.io/USR02/" target="_blank" class="location"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="底標"></a>
+            <img src="pic/mapmainview.png" alt="map" class="mappic">
             <!-- <img src="pic/god.png" alt="god" class="god"> -->
         </div>
+
+        <!-- 標註順序 -->
+        <div >
+          
+          <input type="button"  class="but-item" id="bu01" onclick="buton1()" value="0" />
+          <input type="button"  class="but-item" id="bu02" onclick="buton2()" value="1" disabled="disabled" />
+          <input type="button"  class="but-item" id="bu03" onclick="buton3()" value="2" disabled="disabled"/>
+          <input type="button"  class="but-item" id="bu04" onclick="buton4()" value="3" disabled="disabled"/>
+          <input type="button"  class="but-item" id="bu05" onclick="buton5()" value="4" disabled="disabled"/>
+          <input type="button"  class="but-item" id="bu06" onclick="buton6()" value="5" disabled="disabled"/>
+          <input type="button"  class="but-item" id="bu07" onclick="buton7()" value="6" disabled="disabled"/>
+          <input type="button"  class="but-item" id="bu08" onclick="buton8()" value="7" disabled="disabled"/>
+          <input type="button"  class="but-item" id="bu09" onclick="buton9()" value="8" disabled="disabled"/>
+          </div>
+          <script src="button.js"></script>
+        <ul class="loc">
+          <a href="https://yoman666.github.io/USR02/"  class="location01"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="底標"></a>
+          <a href="https://yoman666.github.io/USR02/"  class="location02"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_star.svg" alt="底標"></a>
+        </ul>
+
         <h2 class="puzzlepice_title">地圖碎片</h2>
         <div class="puzzlepice">
             <ul class="pices">
@@ -55,10 +100,9 @@
             《歲時百問》說道「萬物生長此時，皆清潔而明淨，故謂之清明。」清明前後子孫會到祖先墓前，祭拜焚香，打掃墓園，表達慎終追遠之意。
 自古以來許多人為了表示誠意，會以三牲禮做為供品，其中三牲禮的「禮」和「醴」相通，禮最早的起源為「祭祀」、「祈福」之意。祭祀的牲禮還有四牲、五牲以及大、小副的區別，但一般以三牲較為常見。
         </p>
-        
 
-        
-        
+    
+
     </div>
 </body>
 </html>
