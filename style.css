@@ -157,13 +157,13 @@ input{
     height: 50px;
     width: 50px;
     border:0;
-    background-color:transparent;
-    color:transparent;
+    background-color:yellow;
+    color:yellow;
 }
 button{
     border:0;
-    background-color:transparent;
-    color:transparent;
+    background-color:yellow;
+    color:yellow;
     height: 50px;
     width: 50px;
 }
