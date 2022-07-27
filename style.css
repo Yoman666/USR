@@ -146,7 +146,67 @@ p{
     display: flex;
     justify-content: center;
     width: 100%;
+    position: relative;
 }
+.mapmain{
+    position: relative;
+}
+
+/*map順序*/
+input{
+    height: 50px;
+    width: 50px;
+    border:0;
+    background-color:transparent;
+    color:transparent;
+}
+button{
+    border:0;
+    background-color:transparent;
+    color:transparent;
+    height: 50px;
+    width: 50px;
+}
+.but-item{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.but1{
+    left: 67%;
+    top: 66%;
+}
+.but2{
+    left: 76%;
+    top: 40%;
+}
+.but3{
+    left: 56%;
+    top: 37%;
+}
+.but4{
+    left: 66%;
+    top: 15%;
+}
+.but5{
+    left: 43%;
+    top: 15%;
+}
+.but6{
+    left: 33%;
+    top: 37%;
+}
+.but7{
+    left: 22%;
+    top: 65%;
+}
+.but8{
+    left: 46%;
+    top: 78%;
+}
+
+
+
 .box{
     width: 70%;
     height: 700px;
@@ -154,12 +214,13 @@ p{
     border-radius: 10px;
     box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
 }
-.bu01{
-    position: relative;
+
+/* .bu01{
+    position: absolute;
     margin-top:37%;
     right: 23%;
-}
-.location01{
+} */
+/* .location01{
     position: relative;
     margin-top:37%;
     right: 23%;
@@ -168,7 +229,7 @@ p{
     position: relative;
     margin-top:22%;
     right: 18%;
-}
+} */
 
 .mappic{
     
@@ -214,21 +275,7 @@ p{
     margin-bottom: 50px;
 }
 
-/*順序*/
-input{
-    height: 20px;
-    width: 20px;
-    border:0;
-    background-color:wheat;
-    color:green;
-}
-button{
-    border:0;
-    background-color:red;
-    color:black;
-    height: 20px;
-    width: 20px;
-}
+
 
 .bu1{
     position: relative;
@@ -263,7 +310,7 @@ button{
 
 } */
 
-@media(max-width:600px){
+@media(max-width:414px){
     .mainview2{
         display:none;
     }
@@ -283,11 +330,45 @@ button{
     .box{
         height: 300px;
     }
-    .bu1{
-        position: relative;
-        left: 68%;
-        top: -90px;
-        background-color: #fff;
+    input{
+        height: 20px;
+        width: 20px;
+    }
+    button{
+        height: 20px;
+        width: 50px;
+    }
+    .but1{
+        left: 66%;
+        top: 56%;
+    }
+    .but2{
+        left: 76%;
+        top: 34%;
+    }
+    .but3{
+        left: 55%;
+        top: 32%;
+    }
+    .but4{
+        left: 66%;
+        top: 12%;
+    }
+    .but5{
+        left: 42%;
+        top: 12%;
+    }
+    .but6{
+        left: 32%;
+        top: 31%;
+    }
+    .but7{
+        left: 22%;
+        top: 56%;
+    }
+    .but8{
+        left: 45%;
+        top: 65%;
     }
 }
 
