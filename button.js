@@ -77,13 +77,12 @@ function buton8(){
         console.log(cont,Number(items[cont].getAttribute('value')))
     }
 }
-function buton9(){
-
-    if(cont==document.activeElement.getAttribute('value') ){
-        cont+=1
-        console.log(cont)
-    }
-    console.log('end')
-}
+// function buton9(){
+//     if(cont==document.activeElement.getAttribute('value') ){
+//         cont+=1
+//         console.log(cont)
+//     }
+//     console.log('end')
+// }
    
 
