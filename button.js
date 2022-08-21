@@ -4,28 +4,28 @@ let items = document.querySelectorAll('.but-item')
 //console.log(cont,Number(items[cont].getAttribute('value')))
   
 
-var openWin = function(){
-    var winRef = window.open("url","_blank");
-    $.ajax({
-        type: '',
-        url: '',
-        data: '',
-        success:function(json){
-            winRef.location = "新的url";
-        }
-    });
-};
+// var openWin = function(){
+//     var winRef = window.open("url","_blank");
+//     $.ajax({
+//         type: '',
+//         url: '',
+//         data: '',
+//         success:function(json){
+//             winRef.location = "新的url";
+//         }
+//     });
+// };
 
 function buton1(){
     if(cont==document.activeElement.getAttribute('value') ){
         
-        var winRef = window.open('https://yoman666.github.io/USR02/', '_blank', 'height=800,width=1050');
-        this.getLink(ID).then(res => (winRef.location = res));
+        // var winRef = window.open('https://yoman666.github.io/USR02/', '_blank', 'height=800,width=1050');
+        // this.getLink(ID).then(res => (winRef.location = res));
 
         // var winRef = window.open('', '_blank');
         // winRef.location="https://yoman666.github.io/USR02/"
 
-        // window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
+        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
         // unclick="window.open('https://yoman666.github.io/USR02/')"
         cont+=1
         items[cont].removeAttribute('disabled')
@@ -35,9 +35,7 @@ function buton1(){
 function buton2(){
 
     if(cont==document.activeElement.getAttribute('value') ){
-        var winRef = window.open('https://yoman666.github.io/USR02/', '_blank', 'height=800,width=1050');
-        this.getLink(ID).then(res => (winRef.location = res));
-        // window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名');
+        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名');
         cont+=1
         items[cont].removeAttribute('disabled')
         console.log(cont,Number(items[cont].getAttribute('value')))
