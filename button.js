@@ -5,7 +5,8 @@ let items = document.querySelectorAll('.but-item')
 function buton1(){
 
     if(cont==document.activeElement.getAttribute('value') ){
-        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱', config='height=500,width=500');
+        // <a href="google.com"></a>
+        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
         cont+=1
         items[cont].removeAttribute('disabled')
         console.log(cont,Number(items[cont].getAttribute('value')))
@@ -14,7 +15,7 @@ function buton1(){
 function buton2(){
 
     if(cont==document.activeElement.getAttribute('value') ){
-        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱', config='height=500,width=500');
+        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
         cont+=1
         items[cont].removeAttribute('disabled')
         console.log(cont,Number(items[cont].getAttribute('value')))
@@ -24,7 +25,7 @@ function buton3(){
 
     if(cont==document.activeElement.getAttribute('value') ){
         
-        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱', config='height=500,width=500');
+        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
         cont+=1
         items[cont].removeAttribute('disabled')
         console.log(cont,Number(items[cont].getAttribute('value')))
@@ -33,7 +34,7 @@ function buton3(){
 function buton4(){
 
     if(cont==document.activeElement.getAttribute('value') ){
-        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱', config='height=500,width=500');
+        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
         cont+=1
         items[cont].removeAttribute('disabled')
         console.log(cont,Number(items[cont].getAttribute('value')))
@@ -42,7 +43,7 @@ function buton4(){
 function buton5(){
 
     if(cont==document.activeElement.getAttribute('value') ){
-        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱', config='height=500,width=500');
+        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
         cont+=1
         items[cont].removeAttribute('disabled')
         console.log(cont,Number(items[cont].getAttribute('value')))
@@ -51,7 +52,7 @@ function buton5(){
 function buton6(){
 
     if(cont==document.activeElement.getAttribute('value') ){
-        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱', config='height=500,width=500');
+        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
         cont+=1
         items[cont].removeAttribute('disabled')
         console.log(cont,Number(items[cont].getAttribute('value')))
@@ -60,7 +61,7 @@ function buton6(){
 function buton7(){
 
     if(cont==document.activeElement.getAttribute('value') ){
-        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱', config='height=500,width=500');
+        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
         cont+=1
         items[cont].removeAttribute('disabled')
         console.log(cont,Number(items[cont].getAttribute('value')))
@@ -69,7 +70,7 @@ function buton7(){
 function buton8(){
 
     if(cont==document.activeElement.getAttribute('value') ){
-        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱', config='height=500,width=500');
+        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
         cont+=1
         items[cont].removeAttribute('disabled')
         console.log(cont,Number(items[cont].getAttribute('value')))
