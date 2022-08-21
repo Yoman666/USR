@@ -7,7 +7,8 @@ let items = document.querySelectorAll('.but-item')
 function buton1(){
     
     if(cont==document.activeElement.getAttribute('value') ){
-        var winRef = window.open('https://yoman666.github.io/USR02/', '_blank');
+        var winRef = window.open('', '_blank');
+        winRef.location="https://yoman666.github.io/USR02/"
         // window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
         // unclick="window.open('https://yoman666.github.io/USR02/')"
         cont+=1
@@ -18,6 +19,7 @@ function buton1(){
 function buton2(){
 
     if(cont==document.activeElement.getAttribute('value') ){
+        
         window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名');
         cont+=1
         items[cont].removeAttribute('disabled')
