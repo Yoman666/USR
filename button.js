@@ -2,10 +2,13 @@ let cont = 0
 let items = document.querySelectorAll('.but-item')
 //順序定義
 //console.log(cont,Number(items[cont].getAttribute('value')))
-function buton1(){
 
+
+function buton1(){
+    
     if(cont==document.activeElement.getAttribute('value') ){
-        window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
+        var winRef = window.open('https://yoman666.github.io/USR02/', '_blank');
+        // window.open(' https://yoman666.github.io/USR02/ ', '新視窗的名稱');
         // unclick="window.open('https://yoman666.github.io/USR02/')"
         cont+=1
         items[cont].removeAttribute('disabled')
