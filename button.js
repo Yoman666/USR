@@ -1,8 +1,6 @@
 let cont = 0
 let items = document.querySelectorAll('.but-item')
 //順序定義
-
-
 //console.log(cont,Number(items[cont].getAttribute('value')))
 function buton1(){
 
