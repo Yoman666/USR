@@ -15,13 +15,22 @@ let items = document.querySelectorAll('.but-item')
 //         }
 //     });
 // };
+var openWin = function(){
+            var winRef = window.open("https://yoman666.github.io/USR02/","_blank");
+        };
 
 function buton1(){
     if(cont==document.activeElement.getAttribute('value') ){
+        
+        location.href='https://yoman666.github.io/USR02/';
+    
+        // target="_blank"
+        // winRef.location = "https://yoman666.github.io/USR02/";
 
-        setTimeout(() => {
-            window.open('https://yoman666.github.io/USR02/', '_blank');
-        })
+
+        // setTimeout(() => {
+        //     window.open('https://yoman666.github.io/USR02/', '_blank');
+        // })
 
         // var winRef = window.open('https://yoman666.github.io/USR02/', '_blank', 'height=800,width=1050');
         // this.getLink(ID).then(res => (winRef.location = res));
